@@ -5,5 +5,16 @@
 .detail-page .technical-copy{overflow-wrap:anywhere}
 .detail-page .contents{max-height:calc(100dvh - var(--header-size) - 50px);overflow-y:auto;padding-right:10px;scrollbar-width:thin}
 .breadcrumbs{flex-wrap:wrap}
+.detail-table-wrap{max-width:100%;overflow-x:auto;margin:24px 0 30px;border:1px solid var(--line);border-radius:5px;background:var(--white)}
+.detail-table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.65;text-align:left}
+.detail-table th,.detail-table td{padding:15px 17px;vertical-align:top;border-bottom:1px solid var(--line);overflow-wrap:normal}
+.detail-table thead th{background:var(--ink);color:var(--white);font-size:12px;letter-spacing:.25px}
+.detail-table tbody th{font-weight:600;color:var(--ink);width:25%;min-width:130px;background:#f3f6f3}
+.detail-table tr:last-child th,.detail-table tr:last-child td{border-bottom:0}
+.detail-table-wrap:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+.detail-steps{counter-reset:detail-step;list-style:none;padding:0;margin:24px 0;display:grid;gap:12px}
+.detail-steps li{counter-increment:detail-step;position:relative;padding:17px 20px 17px 62px;margin:0;background:var(--soft);border-left:3px solid var(--accent);font-size:15px;line-height:1.7}
+.detail-steps li::before{content:counter(detail-step,decimal-leading-zero);position:absolute;left:18px;top:17px;font-weight:700;color:var(--accent)}
+@media(max-width:760px){.detail-table{font-size:13px}.detail-table th,.detail-table td{padding:12px 11px}.detail-table tbody th{min-width:95px}.detail-steps li{padding-right:14px}}
 @media(max-width:760px){.detail-link{padding:20px}.detail-page .contents{max-height:none;overflow:visible;padding-right:0}.detail-page .project-meta{margin-bottom:25px}}
-@media print{.detail-link{display:none}}
+@media print{.detail-link{display:none}.detail-table-wrap{overflow:visible}.detail-table{font-size:10pt}.detail-table thead th{color:var(--ink);background:none}.detail-page .technical-copy section{break-inside:auto}.detail-table tr,.detail-steps li{break-inside:avoid}}

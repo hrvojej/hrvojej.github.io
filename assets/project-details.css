@@ -1,0 +1,9 @@
+.detail-link{padding:26px 28px;background:var(--soft);border:1px solid var(--line);border-radius:5px}
+.detail-link h2{font-size:23px;margin-bottom:12px}
+.detail-link p:not(.eyebrow){font-size:15px;margin-bottom:20px}
+.detail-page .project-meta{margin-bottom:40px}
+.detail-page .technical-copy{overflow-wrap:anywhere}
+.detail-page .contents{max-height:calc(100dvh - var(--header-size) - 50px);overflow-y:auto;padding-right:10px;scrollbar-width:thin}
+.breadcrumbs{flex-wrap:wrap}
+@media(max-width:760px){.detail-link{padding:20px}.detail-page .contents{max-height:none;overflow:visible;padding-right:0}.detail-page .project-meta{margin-bottom:25px}}
+@media print{.detail-link{display:none}}

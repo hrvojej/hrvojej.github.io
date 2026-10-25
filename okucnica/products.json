@@ -1,0 +1,292 @@
+{
+  "title": "Pločice za našu okućnicu",
+  "updated": "2026-10-25",
+  "surfaceM2": 214,
+  "products": [
+    {
+      "rank": 1,
+      "name": "May Murinni River/Lapis Silver",
+      "color": "Svijetlosiva",
+      "finish": "Kamen",
+      "tone": "cool",
+      "desc": "Prirodni sivi kamen, diskretna šara i srednja varijacija tonova. Naš prvi izbor za neutralnu, dugotrajnu okućnicu.",
+      "sku": "K283318",
+      "sku120": "K282843",
+      "tech": "R11 · PEI 4 · mat · porculan · 9,2–9,5 mm",
+      "status": "verified",
+      "swatch": [
+        "#d8d7d1",
+        "#b8b8b3",
+        "#eeeeea"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-murinni-lapisriver-silver-grip-60x60-cm-r11-mat-podna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-murinni-riverlapis-silver-60x120-cm-r11-mat-podna.html"
+    },
+    {
+      "rank": 2,
+      "name": "May Ceramics Amstel Cemento Inout",
+      "color": "Siva",
+      "finish": "Beton",
+      "tone": "cool",
+      "desc": "Mirniji, suvremeni izgled betona. Dobra opcija ako želimo manje izraženu kamenu šaru.",
+      "sku": "K281117",
+      "sku120": "K00831",
+      "tech": "R11 · PEI 4 · mat · porculan · 9–10 mm",
+      "status": "verified",
+      "swatch": [
+        "#c7c6c2",
+        "#b4b4b0",
+        "#dedbd6"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-amstel-cemento-inout-r11-60x60-cm-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-amstel-cemento-inout-r11-60x120-cm-mat-podnazidna.html"
+    },
+    {
+      "rank": 3,
+      "name": "May Murinni River/Lapis Gold",
+      "color": "Bež",
+      "finish": "Kamen",
+      "tone": "warm",
+      "desc": "Topla, prirodna nijansa kamena; zanimljiva za mediteranski ambijent uz kuću.",
+      "sku": "K283317",
+      "sku120": "K282667",
+      "tech": "R11 · PEI 4 · mat · porculan · 9,2–9,5 mm",
+      "status": "verified",
+      "swatch": [
+        "#d7c8ad",
+        "#b9a88c",
+        "#e4d9c3"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-murinni-lapisriver-gold-grip-60x60-cm-r11-mat-podna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-murinni-river-gold-60x120-cm-r11-mat-podna.html"
+    },
+    {
+      "rank": 4,
+      "name": "May Ceramics Rockstone Pearl Inout",
+      "color": "Svijetlosiva",
+      "finish": "Kamen",
+      "tone": "cool",
+      "desc": "Svijetli, prirodni kameni izgled. Nježnija alternativa prvom favoritu.",
+      "sku": "K02216",
+      "sku120": "K00837",
+      "tech": "R11 · PEI 4 · mat · porculan",
+      "status": "verified",
+      "swatch": [
+        "#dad7d0",
+        "#c7c2ba",
+        "#ebe9e2"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-rockstone-pearl-inout-r11-60x60-cm-mat-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-rockstone-pearl-inout-r11-60x120-cm-mat-podnazidna.html"
+    },
+    {
+      "rank": 5,
+      "name": "May Ceramics Merlot Grey Inout",
+      "color": "Siva",
+      "finish": "Kamen",
+      "tone": "cool",
+      "desc": "Siva imitacija prirodnog kamena, malo izraženije strukture.",
+      "sku": "K281587",
+      "sku120": null,
+      "tech": "R11 · PEI 4 · mat · porculan",
+      "status": "verified",
+      "swatch": [
+        "#c5c5c1",
+        "#a8a8a3",
+        "#d8d8d2"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-merlot-grey-inout-r11-retificirana-60x60-cm-mat-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-merlot-grey-inout-r11-retificirana-60x120-cm-mat-podnazidna.html"
+    },
+    {
+      "rank": 6,
+      "name": "May Ceramics Rockstone Beige Inout",
+      "color": "Bež",
+      "finish": "Kamen",
+      "tone": "warm",
+      "desc": "Svijetli prirodni kamen, topliji i nježniji od sivih modela.",
+      "sku": null,
+      "sku120": null,
+      "tech": "R11 · PEI 4 · mat · porculan",
+      "status": "verified",
+      "swatch": [
+        "#ddcfba",
+        "#c9bba7",
+        "#f0e5d6"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-rockstone-beige-inout-r11-60x60-cm-mat-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-rockstone-beige-inout-r11-60x120-cm-mat-podnazidna.html"
+    },
+    {
+      "rank": 7,
+      "name": "May Ceramics Merlot Bone Inout",
+      "color": "Svijetlobež",
+      "finish": "Kamen",
+      "tone": "warm",
+      "desc": "Svijetla bež kamena tekstura, mekši i neutralniji mediteranski dojam.",
+      "sku": null,
+      "sku120": null,
+      "tech": "R11 · PEI 4 · mat · porculan",
+      "status": "verified",
+      "swatch": [
+        "#e1d6c3",
+        "#cfc4b1",
+        "#f2ece2"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-merlot-bone-inout-r11-retificirana-60x60-cm-mat-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-merlot-bone-inout-r11-retificirana-60x120-cm-mat-podnazidna.html"
+    },
+    {
+      "rank": 8,
+      "name": "May Ceramics Amstel Beige Inout",
+      "color": "Bež",
+      "finish": "Kamen",
+      "tone": "warm",
+      "desc": "Ujednačenija bež nijansa, topliji izgled vanjskih površina.",
+      "sku": null,
+      "sku120": null,
+      "tech": "R11 · PEI 4 · mat · porculan",
+      "status": "verified",
+      "swatch": [
+        "#d7c8b0",
+        "#c6b59a",
+        "#e9dfce"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-amstel-beige-inout-r11-60x60-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-amstel-beige-inout-r11-60x120-cm-mat-podnazidna.html"
+    },
+    {
+      "rank": 9,
+      "name": "May Ceramics Amstel Blanco Inout",
+      "color": "Gotovo bijela",
+      "finish": "Kamen",
+      "tone": "light",
+      "desc": "Vrlo svijetla nijansa za prozračan izgled; treba uživo ocijeniti odsjaj i održavanje.",
+      "sku": null,
+      "sku120": null,
+      "tech": "R11 · PEI 4 · mat · porculan",
+      "status": "verified",
+      "swatch": [
+        "#ebe8dd",
+        "#dcdcd3",
+        "#f7f5ef"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-amstel-blanco-inout-r11-60x60-cm-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-amstel-blanco-inout-r11-60x120-cm-mat-podnazidna.html"
+    },
+    {
+      "rank": 10,
+      "name": "May Murinni River/Lapis White",
+      "color": "Bijela",
+      "finish": "Kamen",
+      "tone": "light",
+      "desc": "Vrlo svijetla kamena varijanta; vrijedno provjeriti ponašanje na jakom suncu.",
+      "sku": "K283319",
+      "sku120": null,
+      "tech": "R11 · PEI 4 · mat · porculan",
+      "status": "verified",
+      "swatch": [
+        "#e9e8e3",
+        "#d8d9d5",
+        "#fcfaf5"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-murinni-lapisriver-white-grip-60x60-cm-r11-mat-podna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-murinni-river-white-60x120-cm-r11-mat-podna.html"
+    },
+    {
+      "rank": 11,
+      "name": "May Ceramics Cementino Blast Ivory",
+      "color": "Topla bež",
+      "finish": "Beton",
+      "tone": "warm",
+      "desc": "Topla ivory nijansa u imitaciji betona. PEI podatak potrebno razjasniti prije narudžbe.",
+      "sku": "K282263",
+      "sku120": "K282281",
+      "tech": "R11 · mat · porculan · PEI 3/4 – provjeriti",
+      "status": "verify-pei",
+      "swatch": [
+        "#e3d6bb",
+        "#d2c4a8",
+        "#f2e9d7"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-cementino-blast-ivory-retificirana-60x60-cm-mat-r11-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-cementino-blast-ivory-retificirana-60x120-cm-mat-r11-podnazidna.html"
+    },
+    {
+      "rank": 12,
+      "name": "May Ceramics Cementino Blast Bone",
+      "color": "Svijetlobež",
+      "finish": "Beton",
+      "tone": "warm",
+      "desc": "Mekana bež nijansa, mirniji betonski izgled. PEI podatak nije usklađen.",
+      "sku": "K282265",
+      "sku120": "K282283",
+      "tech": "R11 · mat · porculan · PEI 3/4 – provjeriti",
+      "status": "verify-pei",
+      "swatch": [
+        "#e7ddcc",
+        "#d4cbb9",
+        "#f4f0e9"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-cementino-blast-bone-retificirana-60x60-cm-mat-r11-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-cementino-blast-bone-retificirana-60x120-cm-mat-r11-podnazidna.html"
+    },
+    {
+      "rank": 13,
+      "name": "May Ceramics Cementino Blast Graige",
+      "color": "Bež-siva",
+      "finish": "Beton",
+      "tone": "cool",
+      "desc": "Neutralan prijelaz između tople bež i sive. PEI podatak potrebno potvrditi.",
+      "sku": "K282264",
+      "sku120": "K282282",
+      "tech": "R11 · mat · porculan · PEI 3/4 – provjeriti",
+      "status": "verify-pei",
+      "swatch": [
+        "#cfccc0",
+        "#bbb9ac",
+        "#e5e1d7"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-cementino-blast-graige-retificirana-60x60-cm-mat-r11-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-cementino-blast-graige-retificirana-60x120-cm-mat-r11-podnazidna.html"
+    },
+    {
+      "rank": 14,
+      "name": "May Ceramics Cementino Blast Light Grey",
+      "color": "Svijetlosiva",
+      "finish": "Beton",
+      "tone": "cool",
+      "desc": "Čista svijetlosiva nijansa s efektom betona. PEI podatak potrebno potvrditi.",
+      "sku": "K282266",
+      "sku120": "K282284",
+      "tech": "R11 · mat · porculan · PEI 3/4 – provjeriti",
+      "status": "verify-pei",
+      "swatch": [
+        "#d5d7d5",
+        "#bbbfbe",
+        "#e9eae6"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-cementino-blast-light-grey-retificirana-60x60-cm-mat-r11-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-cementino-blast-light-grey-retificirana-60x120-cm-matr11-podnazidna.html"
+    },
+    {
+      "rank": 15,
+      "name": "May Ceramics Cementino Blast White",
+      "color": "Bijela",
+      "finish": "Beton",
+      "tone": "light",
+      "desc": "Gotovo bijela pločica, minimalističkog dojma. PEI podatak potrebno potvrditi.",
+      "sku": "K282268",
+      "sku120": "K282286",
+      "tech": "R11 · mat · porculan · PEI 3/4 – provjeriti",
+      "status": "verify-pei",
+      "swatch": [
+        "#f0eee9",
+        "#dedfda",
+        "#faf9f5"
+      ],
+      "url60": "https://www.fero-term.hr/product/plocica-may-ceramics-cementino-blast-white-retificirana-60x60-cm-mat-r11-podnazidna.html",
+      "url120": "https://www.fero-term.hr/product/plocica-may-ceramics-cementino-blast-white-retificirana-60x120-cm-mat-r11-podnazidna.html"
+    }
+  ]
+}

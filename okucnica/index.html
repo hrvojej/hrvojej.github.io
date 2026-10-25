@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#234246">
+  <meta name="description" content="Pregled Ferotermovih vanjskih pločica u dvije dimenzije: 60 × 60 i 60 × 120 cm. Favoriti, fotografije, opisi i izravne poveznice.">
+  <title>Naše pločice za okućnicu · Izbor za Ninu</title>
+  <style>
+    :root {color-scheme:light; --ink:#253431; --muted:#63736e; --paper:#f5f5f1; --white:#fff; --border:#e1e7e1; --pine:#254f48; --mint:#d9e7dd; --sand:#f2e7d8; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-size:15px;-webkit-font-smoothing:antialiased}
+    a{color:inherit} button,input{font:inherit}
+    button:focus-visible,a:focus-visible{outline:3px solid #3f8c7c;outline-offset:3px}
+    .shell{width:min(100% - 32px,820px);margin-inline:auto}
+    .hero{background:radial-gradient(ellipse at 95% -30%,#53746b 0%,transparent 45%),linear-gradient(125deg,#223c3c,#2b5045);color:#fff;padding:30px 0 28px;overflow:hidden}
+    .topline{font-size:11px;font-weight:800;letter-spacing:.17em;text-transform:uppercase;color:#cce4d9;margin-bottom:13px}
+    .hero h1{font-size:clamp(31px,7vw,46px);letter-spacing:-.045em;line-height:1.1;max-width:630px;margin:0 0 12px;font-weight:760}
+    .hero h1 em{font-style:normal;color:#e2d7be}
+    .hero p{font-size:14px;line-height:1.6;color:#ebf4ed;max-width:620px;margin:0 0 18px}
+    .facts{display:flex;gap:7px;flex-wrap:wrap}
+    .fact{font-size:12px;font-weight:700;padding:8px 11px;border-radius:50px;border:1px solid #ffffff38;background:#ffffff13;color:#f7f9f5}
+    main{padding-bottom:48px}
+    .info{background:#fff;border:1px solid var(--border);border-radius:16px;margin:18px 0 24px;padding:16px;box-shadow:0 4px 22px #2b484705}
+    .info b{color:#244e45}
+    .info p{margin:0;line-height:1.55;font-size:13px}
+    .info p+p{margin-top:7px}
+    .filters-label{font-size:12px;font-weight:800;color:#53655d;margin:0 0 9px 2px}
+    .filters{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 0 14px;margin:0 -3px 6px}
+    .filters::-webkit-scrollbar{display:none}
+    .chip{border:1px solid #d4dfd9;background:#fff;border-radius:999px;color:#36564b;font-weight:750;font-size:12px;padding:11px 14px;white-space:nowrap;cursor:pointer}
+    .chip[aria-pressed="true"]{background:#254f48;color:white;border-color:#254f48}
+    .section{margin-top:23px}
+    .section-title{font-size:22px;letter-spacing:-.035em;line-height:1.15;margin:0 0 5px;color:#253d36}
+    .section-desc{color:var(--muted);font-size:12px;line-height:1.5;margin:0 0 13px}
+    .tiles{display:grid;grid-template-columns:1fr;gap:10px}
+    .tile{background:#fff;border:1px solid var(--border);border-radius:17px;padding:13px;box-shadow:0 4px 20px #1a32200a}
+    .tile.fav{border-color:#d7b88f;box-shadow:0 4px 18px #9b85551c}
+    .tile-row{display:flex;align-items:flex-start;gap:13px}
+    .swatch{width:105px;height:105px;flex:0 0 105px;position:relative;border-radius:11px;overflow:hidden;margin:0;background:radial-gradient(ellipse at 25% 15%,var(--shade3) 0%,transparent 50%),radial-gradient(ellipse at 75% 68%,var(--shade2) 0%,transparent 59%),linear-gradient(140deg,var(--shade1),var(--shade3));border:1px solid #d2d0c6}
+    .swatch:before{content:"";inset:0;position:absolute;opacity:.25;background-image:repeating-linear-gradient(32deg,transparent 0px,transparent 24px,#ffffffab 25px,transparent 27px,transparent 53px),repeating-linear-gradient(117deg,transparent 0px,transparent 35px,#4d4d4d36 36px,transparent 37px,transparent 75px);mix-blend-mode:overlay}
+    .swatch.cement:before{background-image:radial-gradient(circle at 14% 26%,#0002 0 .7px,transparent 1px),radial-gradient(circle at 83% 63%,#fff9 0 1px,transparent 2px);background-size:17px 19px,21px 20px;opacity:.5}
+    .swatch img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;background:transparent}
+    .swatch small{position:absolute;bottom:0;left:0;right:0;text-align:center;padding:5px 2px;background:#253a37ce;color:#fff;font-size:9px;font-weight:700;letter-spacing:.01em;z-index:1}
+    .swatch.has-photo small{background:#253a377a}
+    .tile-text{flex:1;min-width:0}
+    .mini{font-size:10px;text-transform:uppercase;font-weight:850;letter-spacing:.07em;color:#4f7965;margin:2px 0 6px}
+    .tile.fav .mini{color:#a56d28}
+    .name{font-size:16px;line-height:1.24;margin:0 0 5px;letter-spacing:-.02em;color:#263b34;overflow-wrap:break-word}
+    .kind{color:#6c786f;font-size:12px;margin:0 0 5px}
+    .desc{line-height:1.52;color:#50645a;font-size:12px;margin:0}
+    .meta{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0 11px}
+    .meta span{font-size:10.5px;font-weight:700;border-radius:5px;padding:5px 7px;background:#f0f4ef;color:#416250}
+    .meta .warning{background:#fff1db;color:#865b26}
+    .tile-bottom{border-top:1px solid #edf0e9;padding-top:11px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+    .size{font-size:11px;color:#708078;line-height:1.4}
+    .visit{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;gap:5px;border-radius:9px;text-decoration:none;background:#e5eee7;color:#264f44;font-weight:800;padding:10px 11px;font-size:12px}
+    .visit:hover{background:#cfdfd4}
+    .alert{border-left:3px solid #bc8b48;padding:9px 12px;margin:11px 0 0;border-radius:0 7px 7px 0;background:#fff7eb;color:#7a603d;font-size:12px;line-height:1.5}
+    .endnote{margin:28px 0 0;background:#eaf0e9;border-radius:15px;padding:18px}
+    .endnote h2{font-size:17px;margin:0 0 8px}
+    .endnote p{font-size:12px;line-height:1.62;margin:5px 0;color:#455e50}
+    footer{font-size:11px;color:#77867d;line-height:1.65;margin:16px 0}
+    .empty{padding:22px;background:white;border-radius:12px;color:#63736e;font-size:13px}
+    .loading{text-align:center;padding:30px;color:#567168}
+    .error{border:1px solid #e4c4b9;background:#fff8f3;padding:18px;border-radius:13px;color:#8a503f;font-size:13px}
+    [hidden]{display:none!important}
+    @media(min-width:680px){.hero{padding:44px 0 38px}.tiles{grid-template-columns:1fr 1fr;gap:14px}.tile{padding:15px}.swatch{width:114px;height:114px;flex-basis:114px}.tile-row{gap:14px}.name{font-size:17px}.desc{font-size:13px}.hero p{font-size:16px}.info{padding:20px}.section-title{font-size:25px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="shell">
+      <div class="topline">NAŠ MALI KATALOG · FEROTERM</div>
+      <h1>Biramo pločice<br>za <em>našu okućnicu.</em></h1>
+      <p>Nina, ovo je pregled modela koji nam se čine najprikladnijima za terase, stepenice i vanjske površine. Prva tri su naši favoriti; ostale vrijedi pogledati ako nam se više svidi neka druga nijansa.</p>
+      <div class="facts" aria-label="Sažetak">
+        <span class="fact">15 modela</span>
+        <span class="fact">3 favorita</span>
+        <span class="fact">60 × 60 + 60 × 120 cm</span>
+        <span class="fact">R11 · vanjska uporaba</span>
+      </div>
+    </div>
+  </header>
+  <main class="shell">
+    <div class="info">
+      <p><b>Zašto dvije dimenzije?</b> Mladen predlaže istu seriju pločice u formatima <b>60 × 60</b> i <b>60 × 120 cm</b>. Veći format mogao bi poslužiti na dijelovima stepenica i ravnijim površinama, a manji na nepravilnim dijelovima okućnice.</p>
+      <p><b>Kako čitati popis:</b> za svaki model prikazujemo samo <b>jedan link</b> (na format 60 × 60), da popis ne bude predugačak. Oba formata postoje u istoj kolekciji, ali prije kupnje treba potvrditi da nijanse i teksture doista odgovaraju, kao i dostupnost potrebnih količina za oko 214 m².</p>
+    </div>
+    <p class="filters-label">Filtriraj odabir</p>
+    <nav class="filters" aria-label="Filteri pločica">
+      <button type="button" class="chip" data-filter="all" aria-pressed="true">Sve (15)</button>
+      <button type="button" class="chip" data-filter="favorites" aria-pressed="false">★ Favoriti</button>
+      <button type="button" class="chip" data-filter="warm" aria-pressed="false">Bež</button>
+      <button type="button" class="chip" data-filter="cool" aria-pressed="false">Sive</button>
+      <button type="button" class="chip" data-filter="light" aria-pressed="false">Vrlo svijetle</button>
+      <button type="button" class="chip" data-filter="verify" aria-pressed="false">Za provjeru</button>
+    </nav>
+    <div id="status" class="loading" role="status">Učitavam modele…</div>
+    <section class="section" id="section-favorites" hidden>
+      <h2 class="section-title">Naša prva tri izbora</h2>
+      <p class="section-desc">Najbolji početak za usporedbu uživo.</p>
+      <div class="tiles" id="cards-favorites"></div>
+    </section>
+    <section class="section" id="section-rest" hidden>
+      <h2 class="section-title">Još sedam dobrih opcija</h2>
+      <p class="section-desc">R11 i deklarirani PEI 4; biramo prema nijansi i stvarnoj teksturi.</p>
+      <div class="tiles" id="cards-rest"></div>
+    </section>
+    <section class="section" id="section-check" hidden>
+      <h2 class="section-title">Pet dodatnih nijansi · Cementino Blast</h2>
+      <p class="section-desc">R11 i oba formata, ali PEI vrijednost treba pisano potvrditi prije kupnje.</p>
+      <div class="alert">Na stranicama ove serije opis i tablica nisu usklađeni: pojavljuju se PEI 3 i PEI 4. Ne tretiramo ih kao potpuno potvrđene alternative.</div>
+      <div class="tiles" id="cards-check" style="margin-top:12px"></div>
+    </section>
+    <div class="endnote">
+      <h2>Što ćemo provjeriti prije narudžbe?</h2>
+      <p><b>1.</b> Jesu li oba formata doista ista nijansa, šara i R11 obrada? Posebno provjeriti seriju i kalibar.</p>
+      <p><b>2.</b> Pripadaju li pločice PEI 4 ili više, jesu li prikladne za smrzavanje i imaju li dovoljnu otpornost na mrlje? Za UV i mrlje treba tražiti tehnički list.</p>
+      <p><b>3.</b> Možemo li uživo vidjeti uzorke i je li moguće osigurati cijelu potrebnu količinu? Konačnu podjelu na dvije dimenzije predložit će Mladen prema stepenicama.</p>
+      <p><b>Napomena o sličicama:</b> kada je dostupna fotografija, prikazana je fotografija s Ferotermove stranice. Ako fotografija nedostaje, prikazan je samo <b>ilustrativni ton boje</b>, a ne vjerna reprodukcija pločice.</p>
+    </div>
+    <footer>Neovisni privatni izbor prema ponudi Fero-Terma, 25. listopada 2026. · Podaci i raspoloživost mogu se mijenjati. Uvijek pogledati stvarni uzorak prije narudžbe.</footer>
+  </main>
+  <script>
+  (function(){
+    'use strict';
+    const groups={
+      favorites:{section:document.getElementById('section-favorites'),list:document.getElementById('cards-favorites')},
+      rest:{section:document.getElementById('section-rest'),list:document.getElementById('cards-rest')},
+      check:{section:document.getElementById('section-check'),list:document.getElementById('cards-check')}
+    };
+    const status=document.getElementById('status');
+    const btns=[...document.querySelectorAll('[data-filter]')];
+    let products=[];
+    let photos={};
+    let active='all';
+
+    function el(tag,css,label){
+      const node=document.createElement(tag);
+      if(css)node.className=css;
+      if(label!=null)node.textContent=label;
+      return node;
+    }
+    function isSecureUrl(value){
+      try {return new URL(value).protocol==='https:';} catch(e){return false;}
+    }
+    function groupOf(p){return p.rank<=3?'favorites':p.rank<=10?'rest':'check';}
+    function show(p){
+      if(active==='all')return true;
+      if(active==='favorites')return p.rank<=3;
+      if(active==='verify')return p.status==='verify-pei';
+      return p.tone===active;
+    }
+    function card(p){
+      const article=el('article','tile'+(p.rank<=3?' fav':''));
+      article.setAttribute('aria-label',p.name);
+      const top=el('div','tile-row');
+      const figure=el('figure','swatch'+(p.finish==='Beton'?' cement':''));
+      const palette=Array.isArray(p.swatch)?p.swatch:['#ddd','#ccc','#eee'];
+      figure.style.setProperty('--shade1',palette[0]);
+      figure.style.setProperty('--shade2',palette[1]);
+      figure.style.setProperty('--shade3',palette[2]);
+      const raw=photos[String(p.rank)];
+      const caption=el('small','photo-credit','okvirna nijansa');
+      if(typeof raw==='string'&&isSecureUrl(raw)){
+        const img=el('img');
+        img.src=raw;
+        img.alt='Fotografija modela '+p.name+' s Ferotermove stranice';
+        img.loading='lazy';
+        img.decoding='async';
+        img.referrerPolicy='no-referrer';
+        img.addEventListener('load',function(){figure.classList.add('has-photo');caption.textContent='Fero-Term foto';});
+        img.addEventListener('error',function(){img.remove();caption.textContent='okvirna nijansa';});
+        figure.append(img);
+      }
+      figure.append(caption);
+      const content=el('div','tile-text');
+      content.append(el('div','mini',p.rank<=3?'★ '+p.rank+'. favorit':p.status==='verify-pei'?'◇ '+p.rank+'. za provjeru':'0'+p.rank+'. opcija'));
+      content.append(el('h3','name',p.name));
+      content.append(el('p','kind',p.color+' · izgled: '+p.finish.toLowerCase()));
+      content.append(el('p','desc',p.desc));
+      top.append(figure,content);
+      article.append(top);
+      const meta=el('div','meta');
+      const specs=p.tech.split(' · ');
+      for(const item of specs){
+        const sp=el('span',item.toLowerCase().includes('provjeriti')?'warning':'',item);
+        meta.append(sp);
+      }
+      article.append(meta);
+      const bottom=el('div','tile-bottom');
+      bottom.append(el('span','size','Ista kolekcija u oba formata'));
+      const btn=el('a','visit','Otvori u Ferotermu ↗');
+      if(!isSecureUrl(p.url60)){btn.removeAttribute('href');btn.textContent='Link nije dostupan';}
+      else {btn.href=p.url60;btn.target='_blank';btn.rel='noopener noreferrer';btn.setAttribute('aria-label','Pogledaj '+p.name+' u formatu 60 puta 60 na Ferotermu');}
+      bottom.append(btn);
+      article.append(bottom);
+      return article;
+    }
+    function render(){
+      for(const g of Object.values(groups)){g.list.replaceChildren();g.section.hidden=true;}
+      let count=0;
+      for(const p of products){
+        if(!show(p))continue;
+        const g=groups[groupOf(p)];
+        g.list.append(card(p));
+        g.section.hidden=false;
+        count++;
+      }
+      status.className='empty';
+      if(count===0){status.textContent='Nema modela za ovaj filter.';status.hidden=false;}
+      else status.hidden=true;
+      for(const b of btns)b.setAttribute('aria-pressed',String(b.dataset.filter===active));
+    }
+    for(const b of btns){b.addEventListener('click',function(){active=b.dataset.filter;render();});}
+    async function init(){
+      try {
+        const req=await Promise.all([
+          fetch('./products.json',{cache:'no-cache'}),
+          fetch('./images.json',{cache:'no-cache'}).catch(function(){return null;})
+        ]);
+        if(!req[0].ok)throw new Error('Katalog nije pronađen.');
+        const data=await req[0].json();
+        if(!Array.isArray(data.products)||data.products.length!==15)throw new Error('Nepotpun katalog.');
+        products=data.products;
+        if(req[1]&&req[1].ok){
+          const images=await req[1].json();
+          if(images&&typeof images.photos==='object'&&images.photos)photos=images.photos;
+        }
+        render();
+      } catch(err){
+        status.hidden=false;status.className='error';
+        status.textContent='Katalog se trenutno ne može učitati. Pokušaj ponovno osvježiti stranicu.';
+      }
+    }
+    init();
+  })();
+  </script>
+</body>
+</html>

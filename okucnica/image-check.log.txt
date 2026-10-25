@@ -1,0 +1,66 @@
+FERO-TERM PHOTO DISCOVERY
+UTC: 2026-10-25T08:14:03.991Z
+Products: 15
+
+#1 May Murinni River/Lapis Silver | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k283318_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#2 May Ceramics Amstel Cemento Inout | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k281117.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#3 May Murinni River/Lapis Gold | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k283317_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#4 May Ceramics Rockstone Pearl Inout | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/0/k02216.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#5 May Ceramics Merlot Grey Inout | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k281587_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#6 May Ceramics Rockstone Beige Inout | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/0/k02217_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#7 May Ceramics Merlot Bone Inout | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k281586.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#8 May Ceramics Amstel Beige Inout | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/0/k00986_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#9 May Ceramics Amstel Blanco Inout | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k281118.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#10 May Murinni River/Lapis White | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k283319_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#11 May Ceramics Cementino Blast Ivory | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k282263.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#12 May Ceramics Cementino Blast Bone | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k282265.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#13 May Ceramics Cementino Blast Graige | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k282264_1.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#14 May Ceramics Cementino Blast Light Grey | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k282266.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+#15 May Ceramics Cementino Blast White | product=200
+  candidate=https://www.fero-term.hr/media/catalog/product/k/2/k282268.jpg?quality=100&bg-color=255,255,255&fit=bounds&height=580&width=385&canvas=385:580
+  imageHEAD=200 mime=image/jpeg
+
+Verified image URLs this run: 15
+Total mapped image URLs: 15

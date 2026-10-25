@@ -1,0 +1,103 @@
+name: Fero-Term fotografije pločica
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "okucnica/products.json"
+      - ".github/workflows/feroterm-photos.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Preuzmi repozitorij
+        uses: actions/checkout@v4
+
+      - name: Pronađi službene fotografije proizvoda iz HTML meta oznaka
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const file = 'okucnica/products.json';
+          const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+          const mapPath = 'okucnica/images.json';
+          const prior = JSON.parse(fs.readFileSync(mapPath, 'utf8'));
+          const photos = {...(prior.photos || {})};
+          const logs = ['FERO-TERM PHOTO DISCOVERY', 'UTC: ' + new Date().toISOString(), 'Products: ' + data.products.length, ''];
+
+          function parseImage(html,base) {
+            const metaTags = html.match(/<meta\b[^>]*>/gi) || [];
+            for (const prop of ['og:image:secure_url','og:image','twitter:image']) {
+              for (const tag of metaTags) {
+                const attrs = {};
+                for (const match of tag.matchAll(/([a-zA-Z_:-]+)\s*=\s*(["'])([\s\S]*?)\2/g)) {
+                  attrs[match[1].toLowerCase()] = match[3];
+                }
+                const key = (attrs.property || attrs.name || '').toLowerCase();
+                if (key !== prop || !attrs.content) continue;
+                const raw = attrs.content.replace(/&amp;/g,'&').replace(/&#38;/g,'&').replace(/&quot;/g,'"');
+                const url = new URL(raw, base);
+                if (url.protocol==='https:') return url.toString();
+              }
+            }
+            return null;
+          }
+          function safeError(e) { return String(e && e.message || e).slice(0,300); }
+          async function main() {
+            let found=0;
+            for (const p of data.products) {
+              try {
+                const response = await fetch(p.url60, {
+                  headers: {'User-Agent':'Mozilla/5.0 (compatible; TileCatalogImageMetadata/1.0)'},
+                  signal: AbortSignal.timeout(18000)
+                });
+                logs.push('#' + p.rank + ' ' + p.name + ' | product=' + response.status);
+                if (!response.ok) continue;
+                const html = await response.text();
+                const photo = parseImage(html,p.url60);
+                if (!photo) { logs.push('  result: no og:image/twitter:image'); continue; }
+                const check = await fetch(photo, {
+                  method:'HEAD',
+                  headers: {'User-Agent':'Mozilla/5.0'},
+                  signal: AbortSignal.timeout(12000)
+                }).catch(err => ({ok:false,status:0,headers:{get:()=>''},error:safeError(err)}));
+                const mime = (check.headers.get('content-type') || '').toLowerCase();
+                logs.push('  candidate=' + photo);
+                logs.push('  imageHEAD=' + check.status + ' mime=' + mime);
+                if (check.ok && mime.startsWith('image/')) {
+                  photos[String(p.rank)] = photo;
+                  found++;
+                } else {
+                  logs.push('  rejected: not confirmed image (existing photo preserved)');
+                }
+              } catch(e) {
+                logs.push('#' + p.rank + ' ERROR ' + safeError(e));
+              }
+              logs.push('');
+            }
+            logs.push('Verified image URLs this run: ' + found);
+            logs.push('Total mapped image URLs: ' + Object.keys(photos).length);
+            fs.writeFileSync(mapPath, JSON.stringify({updated:new Date().toISOString(),photos}, null,2)+'\n');
+            fs.writeFileSync('okucnica/image-check.log.txt', logs.join('\n')+'\n');
+          }
+          main().catch(e => { console.error(e);process.exitCode=1; });
+          NODE
+
+      - name: Spremi potvrđene poveznice fotografija i zapis provjere
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add okucnica/images.json okucnica/image-check.log.txt
+          if git diff --cached --quiet; then
+            echo "No file changes."
+          else
+            git commit -m "Update official Fero-Term tile photographs [skip ci]"
+            git push origin HEAD:main
+          fi
